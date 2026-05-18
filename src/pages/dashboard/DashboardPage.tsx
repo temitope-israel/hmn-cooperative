@@ -24,7 +24,7 @@ import {
   Clock,
 } from "lucide-react";
 
-import { useAuth } from "@/context/AuthContext";
+import { useAuth } from "@/context/useAuth";
 import { StatsCard } from "@/components/dashboard/StatsCard";
 import {
   SkeletonStatsCard,

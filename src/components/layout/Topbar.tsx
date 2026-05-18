@@ -7,7 +7,7 @@
 
 import { useLocation, Link } from "react-router-dom";
 import { Bell, Menu } from "lucide-react";
-import { useAuth } from "@/context/AuthContext";
+import { useAuth } from "@/context/useAuth";
 import { Avatar } from "@/components/ui/Avatar";
 import { NAV_ITEMS } from "@/config/navigation";
 

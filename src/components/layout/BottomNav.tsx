@@ -5,7 +5,7 @@
 // We show only the 5 most important nav items to avoid overcrowding.
 
 import { NavLink, useLocation } from "react-router-dom";
-import { useAuth } from "@/context/AuthContext";
+import { useAuth } from "@/context/useAuth";
 import { NAV_ITEMS } from "@/config/navigation";
 
 export function BottomNav() {

@@ -14,7 +14,7 @@ import { NavLink, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { NAV_ITEMS } from "@/config/navigation";
-import { useAuth } from "@/context/AuthContext";
+import { useAuth } from "@/context/useAuth";
 import { Avatar } from "@/components/ui/Avatar";
 
 export function Sidebar() {

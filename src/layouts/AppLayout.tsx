@@ -19,7 +19,7 @@ import { NavLink, useLocation } from "react-router-dom";
 import { Sidebar } from "@/components/layout/Sidebar";
 import { Topbar } from "@/components/layout/Topbar";
 import { BottomNav } from "@/components/layout/BottomNav";
-import { useAuth } from "@/context/AuthContext";
+import { useAuth } from "@/context/useAuth";
 import { Avatar } from "@/components/ui/Avatar";
 import { NAV_ITEMS } from "@/config/navigation";
 
