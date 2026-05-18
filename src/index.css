@@ -9,7 +9,6 @@
   we update it in ONE place and it changes everywhere in the app.
 */
 
-
 @theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -142,5 +141,21 @@
   }
   html {
     @apply font-sans;
+  }
+
+  /* Shimmer Animation for skeleton loaders. The bg moves from left to right
+  creating a sweeping light effect -signals "loading" to the user */
+
+  @keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+
+  .animate-shimmer {
+    animation: shimmer 1.8s ease-in-out infinite;
   }
 }
