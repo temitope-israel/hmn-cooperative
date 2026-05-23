@@ -1,73 +1,38 @@
-# React + TypeScript + Vite
+# HMN Cooperative Society — Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack cooperative society management platform built for **Honda Manufacturing Nigeria Limited**.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[https://hmn-cooperative.vercel.app](https://hmn-cooperative.vercel.app)
 
-## React Compiler
+## 🔐 Demo Credentials
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Email: `admin@hondanigeria.com`
+Password: `Password123!`
 
-## Expanding the ESLint configuration
+> Note: Currently running with mock data. Real backend integration in progress.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠 Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- React 18 + TypeScript
+- Tailwind CSS + shadcn/ui
+- Framer Motion
+- React Router v6
+- Recharts
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📁 Backend Repository
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+[hmn-cooperative-server](https://github.com/YOUR-USERNAME/hmn-cooperative-server)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ✨ Features (in progress)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- [x] Authentication pages (login, register, pending approval)
+- [x] Role-based app shell (Admin, Treasurer, Member)
+- [x] Financial dashboard with charts and activity feed
+- [ ] Member management (Week 4)
+- [ ] Savings & Paystack payments (Week 6)
+- [ ] Loan management (Week 7)
+- [ ] Reports & exports (Week 8)
+- [ ] Notifications & settings (Week 9)
+- [ ] Full deployment (Week 10)
