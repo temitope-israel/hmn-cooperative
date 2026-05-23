@@ -35,7 +35,7 @@ function App() {
       <Route
         element={
           <AppLayout>
-            <div className="text-gray-500 p-8">Members — coming Week 3</div>
+            <div className="text-gray-500 p-8">Members — coming soon</div>
           </AppLayout>
         }
         path="/members"
@@ -43,7 +43,7 @@ function App() {
       <Route
         element={
           <AppLayout>
-            <div className="text-gray-500 p-8">Savings — coming Week 4</div>
+            <div className="text-gray-500 p-8">Savings — coming soon</div>
           </AppLayout>
         }
         path="/savings"
@@ -51,7 +51,7 @@ function App() {
       <Route
         element={
           <AppLayout>
-            <div className="text-gray-500 p-8">Withdrawals — coming Week 4</div>
+            <div className="text-gray-500 p-8">Withdrawals — coming soon</div>
           </AppLayout>
         }
         path="/withdrawals"
@@ -59,7 +59,7 @@ function App() {
       <Route
         element={
           <AppLayout>
-            <div className="text-gray-500 p-8">Loans — coming Week 5</div>
+            <div className="text-gray-500 p-8">Loans — coming soon</div>
           </AppLayout>
         }
         path="/loans"
@@ -67,7 +67,7 @@ function App() {
       <Route
         element={
           <AppLayout>
-            <div className="text-gray-500 p-8">Reports — coming Week 6</div>
+            <div className="text-gray-500 p-8">Reports — coming soon</div>
           </AppLayout>
         }
         path="/reports"
@@ -75,9 +75,7 @@ function App() {
       <Route
         element={
           <AppLayout>
-            <div className="text-gray-500 p-8">
-              Notifications — coming Week 7
-            </div>
+            <div className="text-gray-500 p-8">Notifications — coming soon</div>
           </AppLayout>
         }
         path="/notifications"
@@ -85,7 +83,7 @@ function App() {
       <Route
         element={
           <AppLayout>
-            <div className="text-gray-500 p-8">Approvals — coming Week 3</div>
+            <div className="text-gray-500 p-8">Approvals — coming soon</div>
           </AppLayout>
         }
         path="/approvals"
@@ -93,7 +91,7 @@ function App() {
       <Route
         element={
           <AppLayout>
-            <div className="text-gray-500 p-8">Settings — coming Week 7</div>
+            <div className="text-gray-500 p-8">Settings — coming soon</div>
           </AppLayout>
         }
         path="/settings"
