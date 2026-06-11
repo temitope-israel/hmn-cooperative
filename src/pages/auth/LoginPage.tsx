@@ -259,7 +259,7 @@ function LoginPage() {
             </Link>
 
             {/* Test Credentials - Dev Only */}
-            <div className="border border-green-500 p-2 rounded-2xl flex flex-col gap-2 text-sm justify-center items-center mt-6 text-green-500">
+            <div className="border border-green-600 p-2 rounded-2xl flex flex-col gap-2 text-sm justify-center items-center mt-6 text-green-600">
               <h3 className="underline font-bold">
                 Test Credentials - Dev Only
               </h3>
