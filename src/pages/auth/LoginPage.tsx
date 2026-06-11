@@ -257,6 +257,15 @@ function LoginPage() {
             >
               Request to join
             </Link>
+
+            {/* Test Credentials - Dev Only */}
+            <div className="border border-green-500 p-2 rounded-2xl flex flex-col gap-2 text-sm justify-center items-center mt-6 text-green-500">
+              <h3 className="underline font-bold">
+                Test Credentials - Dev Only
+              </h3>
+              <p>Test Email: test@hondanigeria.com</p>
+              <p>Test Password: Test123</p>
+            </div>
           </div>
         </motion.div>
 
